@@ -1,7 +1,7 @@
 module.exports = {
   apps : [{
     name: "syncBot",
-    script: "./syncBot.js",
+    script: "~/syncBot.js",
     env: {
       NODE_ENV: "development",
     },
