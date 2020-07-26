@@ -11,9 +11,12 @@ client.login(bot_token)
 
 const {role1} = require("./config.js")
 const {role2} = require("./config.js")
-if (member.roles(role => role1)){
-    roles.add('role2')
-}
-if (member.roles(role => role2)){
-    roles.add('role1')
-}
+
+let role1 = message.guild.roles.cache.find(r => r.name === "role1");
+let role2 = message.guild.roles.cache.find(r => r.name === "role2");
+
+if (message.guild.roles.cache.find(role1) {
+        if (message.member.roles.cache.some(role1)) {
+            message.member.roles.add(role2).catch(console.error);
+
+        }
