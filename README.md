@@ -4,14 +4,21 @@ This bot is used to sync roles across discord servers.
 
 # Note: This project is not yet finished. #
 
-### Initial setup ###
+### Initial setup (Normal) ###
 
  Firstly, Install and Run node.js from the official website: [nodejs.org](https://nodejs.org/dist/v12.18.3/node-v12.18.3-x86.msi)    
  Open your command prompt. (Search for cmd in Windows+R)  
  Type `git clone https://github.com/LFCfan25/syncBot` in the command prompt and hit enter.  
  Wait for it to finish cloning.  
  Type `cd ~/syncBot` in the command prompt and hit enter.  
+
+### Initial setup (VPS) ###
  
+ Firstly, connect to your VM Instance via SSH.   
+ Type `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -` in the command prompt and hit enter.  
+ Type `git clone https://github.com/LFCfan25/syncBot` in the command prompt and hit enter.  
+ Wait for it to finish cloning.  
+ Type `cd ~/syncBot` in the command prompt and hit enter.  
  
  ### Editing the configuration ###
  Type `vim config.js` in the command prompt and hit enter.  
