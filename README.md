@@ -1,4 +1,4 @@
-## syncBot for Discord##
+## syncBot for Discord ##
 
 This bot is used to sync roles across servers.
 
