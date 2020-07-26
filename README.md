@@ -1,4 +1,9 @@
-## Discord Bot Token ##
+## syncBot for Discord##
+
+This bot is used to sync roles across servers.
+
+
+### Discord Bot Token ###
 
  Get your bot's token from:  
  [Discord Developer Portal] (https://discordapp.com/developers/applications/)  
