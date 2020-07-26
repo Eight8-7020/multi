@@ -1,4 +1,5 @@
+#Discord Bot Token
 Get your bot's token from:
-https://discordapp.com/developers/applications/
+*https://discordapp.com/developers/applications/*
 Click on your application -> Bot -> Token -> "Click to Reveal Token"
 Make sure to keep this token secret.
