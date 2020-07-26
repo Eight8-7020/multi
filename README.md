@@ -1,6 +1,8 @@
 ## syncBot for Discord ##
 
-This bot is used to sync roles across servers.
+This bot is used to sync roles across discord servers. 
+
+# Note: This project is not yet finished. #
 
 ### Initial setup ###
 
@@ -30,3 +32,24 @@ This bot is used to sync roles across servers.
 ##### click `esc` to exit insert mode.  
 ##### type `:wq` to save and exit the config.  
 
+### Adding the bot to your server:
+ Go back to the [Discord Developer Portal](https://discordapp.com/developers/applications/).  
+ Collect your Client ID  
+ Go to [Discord Permissions Calculator](https://discordapi.com/permissions.html#268504064) and follow all the steps there.  
+ Make sure to add the bot to both of your servers.  
+ 
+### Starting the bot (regular):  
+##### Use this method if you aren't hosting on a VPS.  
+Change to the bots directory. (`cd ~/syncBot`)    
+Run the command: `node syncBot.js`  
+To stop the bot, close the command prompt.  
+  
+### Starting the bot (pm2):  
+##### Use this method if you are hosting on a VPS and need 24/7 uptime.  
+Run the command `npm -g pm2`  
+Change to the bots directory. (`cd ~/syncBot`)  
+Run the command `pm2 start syncBot-pm2.js`  
+And that's it!  
+To restart at any time, use `pm2 restart syncBot` and to stop at any time use `pm2 stop syncBot`  
+
+### ~ END OF DOCUMENTATION ~ ###
