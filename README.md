@@ -39,6 +39,8 @@ This bot is used to sync roles across discord servers.
 
 ##### click `esc` to exit insert mode.   type `:wq` to save and exit the config.  
 
+-------------
+
 ### Adding the bot to your server:
  Go back to the [Discord Developer Portal](https://discordapp.com/developers/applications/).  
  Collect your Client ID  
