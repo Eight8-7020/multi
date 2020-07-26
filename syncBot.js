@@ -9,12 +9,8 @@ client.on('ready', () => {
 const {bot_token} = require("./config.js")
 client.login(bot_token)
 
-const roles = {
-role1: 'role id',
-role2: 'role id',
-}
-
-module.exports = { roles }
+module.export.roles.role1 = { role1 } 
+module.export.roles.role2 = { role2 }
 
 let role1 = message.guild.roles.cache.find("role1");
 let role2 = message.guild.roles.cache.find("role2");
