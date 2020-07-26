@@ -18,6 +18,8 @@ This bot is used to sync roles across discord servers.
  Type `git clone https://github.com/LFCfan25/syncBot` in the command prompt and hit enter.  
  Wait for it to finish cloning.  
  Type `cd ~/syncBot` in the command prompt and hit enter.  
+
+-------------
  
  ### Editing the configuration ###
  Type `vim config.js` in the command prompt and hit enter.  
@@ -42,6 +44,8 @@ This bot is used to sync roles across discord servers.
  Collect your Client ID  
  Go to [Discord Permissions Calculator](https://discordapi.com/permissions.html#268504064) and follow all the steps there.  
  Make sure to add the bot to both of your servers.  
+
+-------------
  
 ### Starting the bot (regular):  
 ##### Use this method if you aren't hosting on a VPS.  
