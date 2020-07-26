@@ -1,8 +1,7 @@
+## Note: This project is not yet finished. ##
 ## syncBot for Discord ##
 
 This bot is used to sync roles across discord servers. 
-
-# Note: This project is not yet finished. #
 
 ### Initial setup (Normal) ###
 
