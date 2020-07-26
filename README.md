@@ -40,9 +40,11 @@ This bot is used to sync roles across discord servers.
  
 ### Starting the bot (regular):  
 ##### Use this method if you aren't hosting on a VPS.  
-Change to the bots directory. (`cd ~/syncBot`)    
-Run the command: `node syncBot.js`  
-To stop the bot, close the command prompt.  
+Double click the file: start.bat
+Wait for the bot to be ready
+And that's it!  
+To stop the bot at any time, close the command prompt.  
+To restart the bot at any time, close and open start.bat.
   
 ### Starting the bot (pm2):  
 ##### Use this method if you are hosting on a VPS and need 24/7 uptime.  
