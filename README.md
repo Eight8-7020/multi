@@ -28,5 +28,5 @@ This bot is used to sync roles across servers.
  Enter ID No.1 on `role_1` and ID No.2 on `role_2`. (It doesn't really matter which way you do them, as long as they are both there)  
 
 ##### click `esc` to exit insert mode.  
-type `:wq` to save and exit the config.  #####
+##### type `:wq` to save and exit the config.  
 
