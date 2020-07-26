@@ -1,4 +1,4 @@
-## Note: This project is not yet finished. ##
+## Note: This project is not yet finished and will not function as intended. ##
 ## syncBot for Discord ##
 
 This bot is used to sync roles across discord servers. 
