@@ -63,4 +63,6 @@ Run the command `pm2 start syncBot-pm2.js`
 And that's it!  
 To restart at any time, use `pm2 restart syncBot` and to stop at any time use `pm2 stop syncBot`  
 
+-------------
+
 ### ~ END OF DOCUMENTATION ~ ###
