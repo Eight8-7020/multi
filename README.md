@@ -22,9 +22,9 @@ This bot is used to sync roles across discord servers.
 -------------
  
  ### Editing the configuration ###
- Type `vim config.js` in the command prompt and hit enter.  
- click `i` to enter insert mode.  
- edit the config as follows.
+ Type `vim config.json` in the command prompt and hit enter.  
+ click `i` to enter insert mode. Make sure to keep all the "".  
+ edit the config as follows.  
  
 ##### Discord Bot Token #####
  Get your bot's token from: [Discord Developer Portal](https://discordapp.com/developers/applications/)  
