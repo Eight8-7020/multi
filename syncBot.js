@@ -1,5 +1,6 @@
-const Discord = require('discord.js')
-const client = new Discord.Client()
+const Discord = require("discord.js");
+const client = new Discord.Client();
+const config = require("./config.json");
 
 client.on('ready', () => {
     console.log("Connected!" + client.user.tag)
