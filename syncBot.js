@@ -8,9 +8,6 @@ client.on('ready', () => {
     client.user.setActivity("syncing roles", {type: "PLAYING"})
 })
 
-let role1 = message.guild.roles.cache.find(config.role1);
-let role2 = message.guild.roles.cache.find(config.role2);
-
 if (message.guild.roles.cache.find(config.role1) {
         if (message.member.roles.cache.some(config.role1)) {
             message.member.roles.add(config.role2).catch(console.error);
