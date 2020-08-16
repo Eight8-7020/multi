@@ -6,7 +6,7 @@
   "version": "1.0.0",
   "main": "syncBot.js",
 "scripts": {
-    "start": "node index.js",
+    "start": "node syncBot.js",
     "exit": "exit"
   },
 "dependencies": {
@@ -15,4 +15,8 @@
 "engines": {
     "node": ">=10.0.0 <14.0.0"
   }
+"repository": {
+    "type": "git",
+    "url": "https://github.com/LFCfan25/syncBot"
+  },
 }
