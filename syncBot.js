@@ -1,11 +1,14 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
+const fs = require('fs');
+const ini = require('ini');
+const config = ini.parse(fs.readFileSync('./config.ini', 'utf-8'));
 const config = require("./config.json");
 
 client.login(config.token)
 client.on('ready', () => {
     console.log("Connected!" + client.user.tag)
-    client.user.setActivity("syncing roles", {type: "PLAYING"})
+    client.user.setActivity("myself sync roles", {type: "WATCHING"})
 })
 
 if (message.guild.roles.cache.find(config.role1) {
