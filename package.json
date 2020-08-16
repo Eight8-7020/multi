@@ -1,7 +1,6 @@
 {
   "name": "syncBot",
-  "license": "Creative Commons",
-  "license": "Common Clause",
+  "license": ["Creative Commons", "Common Clause"],
   "description": "A selfhosting bot to sync roles between servers",
   "version": "1.0.0",
   "main": "syncBot.js",
