@@ -2,7 +2,8 @@
 ## syncBot for Discord ##
 
 This bot is used to sync roles across discord servers.   
-[![Run on Repl.it](https://repl.it/badge/github/LFCfan25/syncBot)](https://repl.it/github/LFCfan25/syncBot)
+
+To run on repl.it, please refer to the [repl branch.](https://github.com/LFCfan25/syncBot/repl.it)
 
 ### Initial setup (Normal) ###
 
