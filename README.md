@@ -24,7 +24,7 @@ To run on repl.it, please refer to the [repl branch.](https://github.com/LFCfan2
 -------------
  
  ### Editing the configuration ###
- Type `vim config.json` in the command prompt and hit enter.  
+ Type `vim config.ini` in the command prompt and hit enter.  
  click `i` to enter insert mode. Make sure to keep all the "".  
  edit the config as follows.  
  
@@ -32,7 +32,7 @@ To run on repl.it, please refer to the [repl branch.](https://github.com/LFCfan2
  Get your bot's token from: [Discord Developer Portal](https://discordapp.com/developers/applications/)  
  Click on your application -> Bot -> Token -> "Click to Reveal Token"  
  Make sure to keep this token secret to avoid damage to your server.  
- Enter the token in the `your_token_here` space on config.js . (sidenote: make sure to keep the `'` that are beside it.)  
+ Enter the token in the `your_token_here` space on config.ini . (sidenote: make sure to keep the `'` that are beside it.)  
 
 ##### Role IDs #####
  To get a role IDs, (required for role sync), turn on developer options in Settings -> Apperance -> Advanced -> Developer mode.   
