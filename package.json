@@ -5,6 +5,7 @@
   "version": "1.0.0",
   "main": "multi.js",
 "scripts": {
+  "bot": "node ./src/index.js",
   "start": "pm2 start multi-pm2.json",
   "run": "node multi.js"
   },
