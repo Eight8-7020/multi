@@ -3,6 +3,6 @@
         "name": "multi",
         "cwd": "./",
         "script": "npm",
-        "args": "start"
+        "args": "run bot"
     }]
 }
