@@ -1,8 +1,16 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const fs = require('fs');
-const ini = require('ini');
-const config = ini.parse(fs.readFileSync('./config.ini', 'utf-8'));
+
+if (config.ini.exists()) {
+    const fs = require('fs');
+    const ini = require('ini');
+    const config = ini.parse(fs.readFileSync('./config.ini', 'utf-8'))
+    };
+
+if (config.env.exists()) {
+    require('dotenv').config();
+    const config = require(process.env)
+    };
 
 client.login(config.token)
 client.on('ready', () => {
