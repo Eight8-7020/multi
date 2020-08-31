@@ -1,6 +1,7 @@
 {
     "apps": [{
         "name": "multi",
+        "cwd": "./",
         "script": "npm",
         "args": "start"
     }]
