@@ -1,23 +1,24 @@
 {
-  "name": "syncBot",
-  "license": ["Creative Commons", "Common Clause"],
-  "description": "A selfhosting bot to sync roles between servers",
+  "name": "multi",
+  "license": "Custom License",
+  "description": "A multi-purpose discord bot that can intergrate with others",
   "version": "1.0.0",
-  "main": "syncBot.js",
+  "main": "multi.js",
 "scripts": {
-  "start": "pm2 start syncBot-pm2.json",
-  "run": "node syncBot.js"
+  "start": "pm2 start multi-pm2.json",
+  "run": "node multi.js"
   },
 "dependencies": {
   "ini": "^1.3.5",
   "pm2": "^4.4.1",
-  "discord.js": "^12.3.1"
+  "discord.js": "^12.3.1",
+  "dotenv": "^8.2.0"
   },
 "engines": {
     "node": ">=10.0.0 <14.0.0"
   },
 "repository": {
     "type": "git",
-    "url": "https://github.com/LFCfan25/syncBot"
+    "url": "https://github.com/Eight8-7020/multi"
   },
 }
