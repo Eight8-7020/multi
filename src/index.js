@@ -3,8 +3,9 @@ const client = new Discord.Client();
 const fs = require('fs');
 
 if (fs.existsSync(./config.env)) {
+        const dontenv = require('dotenv'):
         require('dotenv').config();
-    const config = require(process.env)
+        const config = require(process.env)
     } else {if (fs.existsSync(./config.json)) {
         const config = require(./config.json)
         } else {if (fs.existsSync(./config.js)) {
